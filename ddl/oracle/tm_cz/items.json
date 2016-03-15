@@ -12213,21 +12213,6 @@
     "child" : {
       "type" : "TRIGGER",
       "owner" : "TM_CZ",
-      "name" : "TRG_CZ_REQ_UPLOAD_FIELD_ID"
-    },
-    "parents" : [ {
-      "type" : "TABLE",
-      "owner" : "TM_CZ",
-      "name" : "CZ_REQUIRED_UPLOAD_FIELD"
-    }, {
-      "type" : "SEQUENCE",
-      "owner" : "TM_CZ",
-      "name" : "SEQ_REQUIRED_UPLOAD_FIELD_ID"
-    } ]
-  }, {
-    "child" : {
-      "type" : "TRIGGER",
-      "owner" : "TM_CZ",
       "name" : "TRG_CZ_JOB_ID"
     },
     "parents" : [ {
