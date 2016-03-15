@@ -39,7 +39,7 @@ CREATE TRIGGER trg_cz_req_upload_field_id BEFORE INSERT ON cz_required_upload_fi
 CREATE SEQUENCE seq_required_upload_field_id
     START WITH 41
     INCREMENT BY 1
-    NO MINVALUE
-    NO MAXVALUE
+    NOMINVALUE
+    NOMAXVALUE
     CACHE 20;
 
